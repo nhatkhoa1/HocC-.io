@@ -49,8 +49,8 @@ void chencuoi(node*&head,int x){
 
 int main() {
     node *head = NULL;
-   /* int n;
-    cout << "Nhap so luong node: ";
+   int n;
+  /*   cout << "Nhap so luong node: ";
     cin >> n;
     for (int i = 1; i <= n; i++) {
         int x;
@@ -63,14 +63,14 @@ int main() {
             newNode->next = head;
             head = newNode;
         }
-    }
-    */
-   for(int i=1;i<=5;i++){
+    }	*/
+    
+  for(int i=1;i<=5;i++){
     	chendau(head,i);
 	}
 	for(int i=6;i<=10;i++){
     	chencuoi(head,i);
-	}
+}
     duyet(head);
     count(head);
     return 0;
